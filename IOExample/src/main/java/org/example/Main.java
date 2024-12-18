@@ -15,7 +15,7 @@ public class Main {
     }
 
     static void methodThatThrowsCheckedException() throws CustomException {
-        //подбрасывание исключения
+        //подбрасывание исключения  .
         throw new CustomException("Это кастомное исключение.");
     }
 }
